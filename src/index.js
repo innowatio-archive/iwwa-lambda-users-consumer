@@ -1,10 +1,12 @@
 import BPromise from "bluebird";
 import router from "kinesis-router";
 import {merge, partial} from "ramda";
+import dotenv from "dotenv";
 
 import * as ses from "./common/ses";
 import * as mongodb from "./common/mongodb";
 
+dotenv.load();
 var VERIFICATION_URL = process.env.VERIFICATION_URL;
 var MONGODB_URL = process.env.MONGODB_URL;
 
