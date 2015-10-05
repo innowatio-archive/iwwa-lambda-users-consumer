@@ -11,8 +11,7 @@
     "aws-sdk": "^2.2.6",
     "bluebird": "^2.10.1",
     "dotenv": "^1.2.0",
-    "kinesis-router": "^1.1.0",
-    "lambda-rpc": "^1.0.0",
+    "kinesis-router": "^1.2.0",
     "mongodb": "^2.0.45",
     "ramda": "^0.17.1"
   },
